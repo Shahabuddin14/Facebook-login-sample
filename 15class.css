@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: tahoma;
+}
+.fb-header{
+	background-color: #3B5998;
+	overflow: hidden;
+	padding: 10px 0 6px;
+	border-bottom: 1px solid #1D2A5B;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+}
+.left-content{
+	float: left;
+}
+.left-content img{
+	margin-top: 10px;
+}
+.right-content{
+	float: right;
+}
+.right-content form{
+	display: flex;
+}
+.email{}
+.right-content label{
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+}
+.email input{
+	display: block;
+	border-radius: 0;
+	border: 1px solid #1D2A5B;
+	height: 20px;
+}
+.password{
+	margin: 0 15px;
+}
+.password input{
+	display: block;
+	border-radius: 0;
+	border: 1px solid #1D2A5B;
+	height: 20px;
+}
+.password a{
+	font-size: 13px;
+	color: #9CB4CA;
+	text-decoration: none;
+}
+.password a:hover{
+	text-decoration: underline;
+}
+.login{}
+.login input{
+	display: block;
+	margin-top: 25px;
+	background-color: #4267B2; 
+	border: 1px solid #29487D;
+	color: #fff;
+	padding: 2.5px 6px;
+}
+.login input:hover{
+	background-color: #365899;
+	cursor: pointer;
+}
+/* Body Part */
+.bodyfb{
+	background: linear-gradient(#FFFFFF, #D3D8E8);
+	overflow:hidden;
+	padding: 30px 0;
+}
+.bodyleft{
+	width: 47%;
+	float: left;
+}
+.bodyleft h3{
+	color: #0E385F;
+	font-size: 21px;
+	line-height: 1.5em; 
+}
+.bodyleft img{
+	width: 100%;
+	margin-top: 5px;
+}
+.bodyright{
+	width: 47%;
+	float: right;
+}
+.bodyheader{
+	margin-bottom: 22px;
+}
+.bodyheader h2{
+	font-size: 37px;
+	color: #333333;
+}
+.bodyheader h4{
+	font-weight: 100;
+	font-size: 18px;
+}
+.bodymain{}
+.bodymain form{}
+.bodymain .usname{
+	display: flex;
+}
+.bodymain .usname .firstname{
+	width: 49%;
+	margin-right: 2%;
+}
+.bodymain .usname .surname{
+	width: 49%;
+}
+.bodymain .usname input{
+	width: 100%;
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: 1px solid #BDC7D8;
+	margin-bottom: 13px;
+}
+input::placeholder{
+	color: #A299A2;
+	opacity: 1;
+	font-size: 19px;
+}
+ input::-ms-input-splaceholder{
+	color: #A299A2;
+	opacity: 1;
+	font-size: 19px
+
+}
+ input:-ms-input-placeholder{
+	color: #A299A2;
+	opacity: 1;
+	font-size: 19px
+}
+.usmail{
+	width: 100%;
+}
+.usmail input{
+	width: 100%;
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: 1px solid #BDC7D8;
+	margin-bottom: 13px;
+}
+.uspass{
+	width: 100%;
+}
+.uspass input{
+	width: 100%;
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: 1px solid #BDC7D8;
+	margin-bottom: 13px;
+}
+.usbirthday{
+	display: flex;
+}
+.usbirthday .birth{
+	
+}
+.usbirthday .birth h4{
+	font-weight: 100;
+	font-size: 19px;
+	margin-bottom: 5px; 
+}
+.usbirthday .birth select{
+	background-color: #FFFFFF;
+	border: 1px solid #BDC7D8;
+	padding: 5px 10px;
+}
+.usbirthday .birth select:nth-child(3){
+	margin: -5px;
+}
+.usbirthday .birth select:nth-child(4){
+	margin: -5px;
+}
+
+.birthtext{
+	width: 32%;
+	padding-top: 29px;
+	margin-left: 2%;
+	line-height: .8em;
+	padding-left: 9px;
+}
+.birthtext a{
+	color: #365899;
+	font-size: 11px;
+	text-decoration: none;
+}
+.birthtext a:hover{
+	text-decoration: underline;
+}
+.gender{
+	display: flex;
+	padding: 22px 0;
+}
+.gender .female{
+	margin-right: 21px;
+	margin: 0 10px;
+}
+.gender .male{}
+.formtext{
+	width: 78%;
+}
+.formtext p{
+	font-size: 12px;
+	color: #777777;
+}
+.formtext a{
+	color: #365899;
+	font-size: 11px;
+	text-decoration: none;
+}
+.formtext a:hover{
+	text-decoration: underline;
+}
+.formbutton{
+	padding: 23px 0;
+}
+.formbutton input{
+	background: linear-gradient(#65AA53, #588A44);
+	color: #FFFFFF;
+	padding: 7px 29px;
+	border: 1px solid #2C5115;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.formbutton input:hover{
+	background: linear-gradient(#76B761, #598B45);
+	cursor: pointer;
+}
+.bodyfooter{}
+.bodyfooter p{
+	color: #666666;
+	font-weight: 800;
+	font-size: 13px;
+}
+.bodyfooter p a{
+	color: #365899;
+	font-size: 13px;
+	text-decoration: none;
+}
+.bodyfooter p a:hover{
+	text-decoration: underline;
+}
+/* Footer */
+.footer-area{
+	margin: 0 auto;
+	padding: 35px;
+}
+.container{
+	width: 100%;
+	font-size: 13px;
+}
+.container abbr{
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #1D2A5B;
+
+
+}
+.top a{
+	text-decoration: none;
+	margin: 0 8px;
+	color: #365899;
+	font-size: 13px;
+
+}
+.top a:hover{
+	text-decoration: underline;
+}
+.top p a:last-child abbr {
+	background-color: #F6F7F9;
+	padding: 2px 10px;
+	border-radius: 3px;
+	border: 1px solid #BDC7D8;
+	font-weight: 800;
+}
+.top p a:last-child abbr:hover {
+	text-decoration: none;
+	background: #E9EBEE;
+}
+.down{
+	padding: 10px 0;
+}
+.down a{
+	text-decoration: none;
+	margin: 0 4px;
+	font-size: 13px;
+	color: #365899;
+}
+.down a:hover{
+	text-decoration: underline;
+}
